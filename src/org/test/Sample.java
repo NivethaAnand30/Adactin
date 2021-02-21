@@ -1,14 +1,5 @@
 package org.test;
 
-import java.io.IOException;
-import java.util.concurrent.TimeUnit;
-
-import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.sikuli.script.FindFailed;
-import org.sikuli.script.Pattern;
-import org.sikuli.script.Screen;
 
 public class Sample {
 	public static void main(String[] args)  {
@@ -23,5 +14,6 @@ public class Sample {
 			System.out.println(s.charAt(i)+" ");
 		}
 
+		System.out.println("ji");
 	}
 }
